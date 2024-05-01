@@ -670,15 +670,32 @@ h3.cart-title {
 
 @media only screen and (max-width: 767px) {
   #billboard .banner-content {
-      margin-top: 210px;
+      margin-top: 170px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      margin-right: 55px;
   }
   #billboard .image-holder {
       margin-top: -390px;
       opacity: 0.3;
   }
   #billboard .swiper-arrow {
-      top: 400px;
+      top: 500px;  
+
   }
+  #billboard .banner-content 
+  {
+      margin-bottom: 120px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+  }
+  #billboard .btn:hover
+  {
+    background-color: #72AEC8;
+    cursor: pointer;
+  }   
 }
 
 /* 3. Icon Box - Company Services
